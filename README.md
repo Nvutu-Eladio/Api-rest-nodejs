@@ -15,24 +15,27 @@
 - [x] Deve ser possível identificarmos o usuário entre as requisições;
 - [x] O usuário só pode visualizar transações o qual ele criou
 
+<p>
 # Instalação
 
 # Faça o clone do repositório
-https://github.com/Nvutu-Eladio/api-rest-nodejs.git
+- https://github.com/Nvutu-Eladio/api-rest-nodejs.git
 
 # Instalar as dependências do projeto
-npm run dev
+
+    npm run dev
 
 # Executando o projeto no ambiente de desenvolvimento
-  npm run dev
+    npm run dev
   
 # Rodar as migrations do projeto para criar o banco de dados
-  npm run knex -- migrate:latest
+    npm run knex -- migrate:latest
+</p>
 
-# Testes e2e
+- Testes e2e
     Os testes foram desenvolvidos utilizando vitest e supertest
 
-# Rotas
+- Rotas
 
 - Criar nova transação
     POST /transactions
@@ -60,3 +63,5 @@ npm run dev
 - eslint
 - supertest
 - dotenv
+
+<p>
