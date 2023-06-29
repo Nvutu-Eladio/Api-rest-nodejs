@@ -15,4 +15,3 @@
 - [x] Deve ser possível identificarmos o usuário entre as requisições;
 - [x] O usuário só pode visualizar transações o qual ele criouç
 
-# Requisitos Não Funcionais - RNF
